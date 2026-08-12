@@ -1,9 +1,10 @@
 
 
-# ------EDA project:  The Hidden Housing Portfolio: A Spatial and Temporal Analysis of King County House Sales---------                 Amy Williams, a seller wants to sell high-value (top 10%) houses in central areas and average-priced houses in outskirt areas, with both types of sales distributed over time.  Our EDA is helping to understand and plan a diversified house-selling strategy-------------------
+# ------EDA project:  The Hidden Housing Portfolio: A Spatial and Temporal Analysis of King County House Sales.            Amy Williams, a seller wants to sell high-value (top 10%) houses in central areas and average-priced houses in outskirt areas, with both types of sales distributed over time.  Our EDA is helping to understand and plan a diversified house-selling strategy-------------------
 
 
 --------------------------------------------------
+
 # Step 1 Data Understanding and Join Validation
 ---------------------------------------
 The analysis uses two tables:
@@ -61,29 +62,33 @@ The final joined table combines property characteristics with transaction outcom
 - Compare the location/distance from the center of her properties.
 - Plot her number of sales and average sale price over time.
 
-# Hypotheses:
 
-5.1. High-value central houses
+# 6. Dta cleaning
+The dataset contains 21,597 sales records with no fully duplicated rows. Repeated property IDs were retained because they may represent multiple sales of the same property at different dates. Core variables used for the geographical hypothesis tests—sale price, sale date, latitude, and longitude—contain no missing values. Missing values in waterfront, renovation, basement, and view variables were retained as unknown rather than assumed to represent zero or “no.” A small number of implausible bedroom values were excluded only from bedroom-specific analysis.
+
+# 7. Hypotheses:
+
+7.1. High-value central houses
 H1: Houses in central areas are more likely to belong to the top 10% of property values.
-Compare the proportion of top-10% high-priced houses located in central areas with those located in outskirts areas.
+Compare the proportion of top-10% high-priced houses located in central areas with those located in outskirts areas. (Central areas are properties considered here are those located within 15 km of the median geographic centre of the King County house-sales dataset).
 
-5.2. Sales over time
+7.2. Sales over time
 H2: High-value central houses are sold across multiple time periods rather than being concentrated in a single period.
 Analyze the number of high-value central houses sold and their average sale price over time.
 
-5.3. Average-priced outskirts houses
+7.3. Average-priced outskirts houses
 H3: Houses in outskirts areas are more likely to have average sale prices than houses in central areas.
 Compare the sale-price distribution of outskirts houses with that of central houses, focusing on properties around the middle of the price distribution.
 
 
-# insights after the implementation of the EDA: 
+# 8. insights after the implementation of the EDA: 
 
 H1: Amy Williams sells a higher proportion of high-priced properties than other sellers.
 H2: Amy Williams' sales activity and average sale price vary over time.
 H3: Amy Williams sells more centrally located properties than outskirt properties.
 
 
-# My recommendation 
+# 9. My recommendation 
 ..............
 .............
 ..............
