@@ -1,7 +1,7 @@
 
 
 # ------EDA project:  The Hidden Housing Portfolio: A Spatial and Temporal Analysis of King County House Sales.            
-# Amy Williams, a seller wants to sell high-value (top 10%) houses in central areas and average-priced houses in outskirt areas, with both types of sales distributed over time.  Our EDA is helping to understand and plan a diversified house-selling strategy-------------------
+# Amy Williams (client), a seller wants to sell high-value (top 10%) houses in central areas and average-priced houses in outskirt areas, with both types of sales distributed over time.  Our EDA is helping to understand and plan a diversified house-selling strategy-------------------
 
 # ------EDA project:  The Hidden Housing Portfolio: A Spatial and Temporal Analysis of King County House Sales.
 --------------------------------------------------
