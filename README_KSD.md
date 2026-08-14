@@ -1,8 +1,9 @@
 
 
-# ------EDA project:  The Hidden Housing Portfolio: A Spatial and Temporal Analysis of King County House Sales.            Amy Williams, a seller wants to sell high-value (top 10%) houses in central areas and average-priced houses in outskirt areas, with both types of sales distributed over time.  Our EDA is helping to understand and plan a diversified house-selling strategy-------------------
+# ------EDA project:  The Hidden Housing Portfolio: A Spatial and Temporal Analysis of King County House Sales.            
+# Amy Williams, a seller wants to sell high-value (top 10%) houses in central areas and average-priced houses in outskirt areas, with both types of sales distributed over time.  Our EDA is helping to understand and plan a diversified house-selling strategy-------------------
 
-
+# ------EDA project:  The Hidden Housing Portfolio: A Spatial and Temporal Analysis of King County House Sales.
 --------------------------------------------------
 
 # Step 1 Data Understanding and Join Validation
@@ -77,19 +78,23 @@ H2: High-value central houses are sold across multiple time periods rather than 
 Analyze the number of high-value central houses sold and their average sale price over time.
 
 7.3. Average-priced outskirts houses
-H3: Houses in outskirts areas are more likely to have average sale prices than houses in central areas.
-Compare the sale-price distribution of outskirts houses with that of central houses, focusing on properties around the middle of the price distribution.
+H3: Houses in outskirts areas are more likely to have average sale prices than houses in central areas. 
+Compare the sale-price distribution of outskirts houses proportion with that of central houses, focusing on properties around the middle of the price distribution.
 
 
 # 8. insights after the implementation of the EDA: 
-
-H1: Amy Williams sells a higher proportion of high-priced properties than other sellers.
-H2: Amy Williams' sales activity and average sale price vary over time.
-H3: Amy Williams sells more centrally located properties than outskirt properties.
+- High-value sales were concentrated in the central area
+- High-value properties in central are sold across several periods
+- Outskirt properties show a greater tendency toward average-priced sales compared with central properties.
 
 
 # 9. My recommendation 
-..............
-.............
-..............
-.............
+we recommend a diversified portfolio strategy combining high-value properties in central areas while incorporating average-priced properties in the outskirts, by Keep monitoring how both segments are distributed over time.
+
+a. Central: High-value
+- Prioritize top-10% properties in central areas.
+b. Outskirts: Average-priced properties
+- Incorporating average-priced properties in outskirt areas.
+c. Across time: monitor both segments
+- Distribute both property segments across multiple periods.
+
